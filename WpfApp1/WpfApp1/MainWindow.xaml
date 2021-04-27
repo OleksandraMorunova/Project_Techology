@@ -6,15 +6,32 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,0,-199,-35">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="33*"/>
-            <ColumnDefinition Width="367*"/>
+            <ColumnDefinition Width="82*"/>
+            <ColumnDefinition Width="793*"/>
+            <ColumnDefinition Width="123*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="/pexels.jpg"/>
         </Grid.Background>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="219,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.768,0.663" Height="34" Width="77" FontSize="16" Grid.Column="1"/>
+        <Label x:Name="label1" Content="Введіть рахунок:" HorizontalAlignment="Left" Margin="224,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.768,0.663" Height="34" Width="185" FontSize="16" Grid.Column="1" FontFamily="Century"/>
+        <Label Content="Введіть кількість гостей:" Grid.Column="1" HorizontalAlignment="Left" Margin="220,123,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.459,0.46" Width="248" FontFamily="Century" FontSize="16"/>
+        <Label Content="Валюти:" Grid.Column="1" HorizontalAlignment="Left" Margin="220,184,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Century" FontSize="16"/>
+        <Label Content="Повний рахунок:" Grid.Column="1" HorizontalAlignment="Left" Margin="220,240,0,0" VerticalAlignment="Top" Width="142" FontSize="16" FontFamily="Century"/>
+        <Label Content="Роздільний рахунок:" Grid.Column="1" HorizontalAlignment="Left" Margin="222,294,0,0" VerticalAlignment="Top" Width="173" FontFamily="Century" FontSize="16"/>
+        <Label Content="UAH" Grid.Column="1" HorizontalAlignment="Left" Margin="404,184,0,0" VerticalAlignment="Top" FontSize="16" Width="57" FontFamily="Century"/>
+        <Label Content="USD" Grid.Column="1" HorizontalAlignment="Left" Margin="466,184,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.23,0.654" FontFamily="Century" FontSize="16" Width="56"/>
+        <Label Content="EVR" Grid.Column="1" HorizontalAlignment="Left" Margin="522,185,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Century" Width="53"/>
+        <Label Content="RUB" Grid.Column="1" HorizontalAlignment="Left" Margin="575,185,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Century" Width="50"/>
+        <TextBlock x:Name="PTextBlockUAH" Grid.Column="1" HorizontalAlignment="Left" Margin="413,241,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="16"/>
+        <TextBlock x:Name="PTextBlockUSD" Grid.Column="1" HorizontalAlignment="Left" Margin="474,243,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="16"/>
+        <TextBlock x:Name="RTextBlockUAH" Grid.Column="1" HorizontalAlignment="Left" Margin="413,296,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="PTextBlockEVR" Grid.Column="1" HorizontalAlignment="Left" Margin="530,245,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="16"/>
+        <TextBlock x:Name="RTextBlockUSD" Grid.Column="1" HorizontalAlignment="Left" Margin="474,297,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="16"/>
+        <TextBlock x:Name="RTextBlockEVR" Grid.Column="1" HorizontalAlignment="Left" Margin="530,298,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Century"/>
+        <TextBlock x:Name="PTextBlockRUB" Grid.Column="1" HorizontalAlignment="Left" Margin="583,243,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Century"/>
+        <TextBlock x:Name="RTextBlockRUB" Grid.Column="1" HorizontalAlignment="Left" Margin="583,298,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Century"/>
 
     </Grid>
 </Window>

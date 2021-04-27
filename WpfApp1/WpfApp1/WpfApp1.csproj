@@ -9,11 +9,12 @@
   <ItemGroup>
     <None Remove="pexels-anna-nekrashevich-6801641.jpg" />
     <None Remove="pexels.jpg" />
+    <None Remove="Інструкція як працювати з програмою .jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="pexels-anna-nekrashevich-6801641.jpg" />
     <Resource Include="pexels.jpg" />
+    <Resource Include="Інструкція як працювати з програмою .jpg" />
   </ItemGroup>
 
 </Project>
