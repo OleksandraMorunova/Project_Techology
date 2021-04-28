@@ -5,42 +5,52 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-         Height="451" Width="779" WindowStyle="ThreeDBorderWindow">
-    <Grid Margin="0,0,-199,-50">
+        Title="MainWindow" Height="650" Width="1000"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,0" RenderTransformOrigin="0.493,0.48" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="80*"/>
-            <ColumnDefinition Width="441*"/>
-            <ColumnDefinition Width="108*"/>
-            <ColumnDefinition Width="11*"/>
-            <ColumnDefinition Width="83*"/>
-            <ColumnDefinition Width="13*"/>
-            <ColumnDefinition Width="21*"/>
-            <ColumnDefinition Width="101*"/>
-            <ColumnDefinition Width="120*"/>
+            <ColumnDefinition Width="370*"/>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="350*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="/pexels.jpg"/>
         </Grid.Background>
-        <Label x:Name="label1" Content="Введіть рахунок:" HorizontalAlignment="Left" Margin="224,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.768,0.663" Height="34" Width="185" FontSize="16" Grid.Column="1" FontFamily="Century"/>
-        <Label Content="Введіть кількість гостей:" Grid.Column="1" HorizontalAlignment="Left" Margin="220,123,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.459,0.46" Width="248" FontFamily="Century" FontSize="16" Grid.ColumnSpan="2"/>
-        <Label Content="Валюти:" Grid.Column="1" HorizontalAlignment="Left" Margin="220,184,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Century" FontSize="16"/>
-        <Label Content="Повний рахунок:" Grid.Column="1" HorizontalAlignment="Left" Margin="220,240,0,0" VerticalAlignment="Top" Width="142" FontSize="16" FontFamily="Century"/>
-        <Label Content="Роздільний рахунок:" Grid.Column="1" HorizontalAlignment="Left" Margin="222,294,0,0" VerticalAlignment="Top" Width="173" FontFamily="Century" FontSize="16"/>
-        <Label Content="UAH" Grid.Column="1" HorizontalAlignment="Left" Margin="390,185,0,0" VerticalAlignment="Top" FontSize="16" Width="57" FontFamily="Century" Grid.ColumnSpan="2"/>
-        <Label Content="USD" Grid.Column="2" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.23,0.654" FontFamily="Century" FontSize="16" Width="56"/>
-        <Label Content="EUR" Grid.Column="2" HorizontalAlignment="Left" Margin="66,186,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Century" Width="53" Grid.ColumnSpan="2"/>
-        <Label Content="RUB" Grid.Column="4" HorizontalAlignment="Left" Margin="1,186,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Century" Width="50"/>
-        <TextBlock x:Name="PTextBlockUAH" Grid.Column="1" HorizontalAlignment="Left" Margin="399,242,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="16"/>
-        <TextBlock x:Name="PTextBlockUSD" Grid.Column="2" HorizontalAlignment="Left" Margin="18,244,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="16"/>
-        <TextBlock x:Name="RTextBlockUAH" Grid.Column="1" HorizontalAlignment="Left" Margin="399,297,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
-        <TextBlock x:Name="PTextBlockEUR" Grid.Column="2" HorizontalAlignment="Left" Margin="74,246,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="16"/>
-        <TextBlock x:Name="RTextBlockUSD" Grid.Column="2" HorizontalAlignment="Left" Margin="18,298,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="16"/>
-        <TextBlock x:Name="RTextBlockEUR" Grid.Column="2" HorizontalAlignment="Left" Margin="74,299,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Century"/>
-        <TextBlock x:Name="PTextBlockRUB" Grid.Column="3" HorizontalAlignment="Left" Margin="8,244,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Century" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="RTextBlockRUB" Grid.Column="3" HorizontalAlignment="Left" Margin="8,299,0,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Century" Grid.ColumnSpan="2"/>
-        <Button Grid.Column="1" HorizontalAlignment="Left" Margin="369,360,0,0" VerticalAlignment="Top" Height="36" Width="113" FontFamily="Century" FontSize="18" Background="#FF1B3C65" Foreground="White" Click="Button_Click" Content="Розрахунок" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="TextBoxR" Grid.Column="2" HorizontalAlignment="Center" Margin="0,74,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Century" FontSize="16" PreviewTextInput="TextBoxR_PreviewTextInput" PreviewKeyDown="TextBoxR_PreviewKeyDown"/>
-        <TextBox x:Name="TextBoxCount" Grid.Column="2" HorizontalAlignment="Center" Margin="0,129,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Century" FontSize="16" PreviewKeyDown="TextBoxCount_PreviewKeyDown" PreviewTextInput="TextBoxCount_PreviewTextInput"/>
-        <Menu Grid.Column="7" Margin="95,440,23,20" FontFamily="DejaVu Sans" FontSize="18" Height="25" Background="#AAAAAAAA" Grid.ColumnSpan="2"/>
+        <Label x:Name="label1" Content="Введіть рахунок:" HorizontalAlignment="Left" Margin="0,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.768,0.663" Height="34" FontSize="16" Grid.Column="1" FontFamily="Century" FontWeight="Bold" FontStyle="Normal">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Введіть кількість гостей:" Grid.Column="1" HorizontalAlignment="Left" Margin="0,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.459,0.46" Width="258" FontFamily="Century" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Валюти:" Grid.Column="1" HorizontalAlignment="Left" Margin="0,250,0,0" VerticalAlignment="Top" Height="32" Width="92" FontFamily="Century" FontSize="16" RenderTransformOrigin="0.719,0.829" FontWeight="Normal"/>
+        <Label Content="Повний рахунок:" Grid.Column="1" HorizontalAlignment="Left" Margin="0,280,0,0" VerticalAlignment="Top" Width="184" FontSize="16" FontFamily="Century" FontWeight="Bold"/>
+        <Label Content="Роздільний рахунок:" Grid.Column="1" HorizontalAlignment="Left" Margin="0,310,0,0" VerticalAlignment="Top" FontFamily="Century" FontSize="16" FontWeight="Bold" Width="184"/>
+        <Label Content="UAH" Grid.Column="1" HorizontalAlignment="Right" Margin="0,255,165,0" VerticalAlignment="Top" FontSize="16" Width="50" FontFamily="Century"/>
+        <Label Content="USD" Grid.Column="1" HorizontalAlignment="Right" Margin="0,255,115,0" VerticalAlignment="Top" RenderTransformOrigin="0.23,0.654" FontFamily="Century" FontSize="16" Width="50"/>
+        <Label Content="EUR" Grid.Column="1" HorizontalAlignment="Right" Margin="0,255,65,0" VerticalAlignment="Top" FontSize="16" FontFamily="Century" Width="50"/>
+        <Label Content="RUB" Grid.Column="1" HorizontalAlignment="Right" Margin="0,255,15,0" VerticalAlignment="Top" FontSize="16" FontFamily="Century" Width="50"/>
+        <TextBlock x:Name="PTextBlockUAH" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,175,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="PTextBlockUSD" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,125,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="RTextBlockUAH" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,175,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
+        <TextBlock x:Name="PTextBlockEUR" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,75,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="RTextBlockUSD" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,125,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="RTextBlockEUR" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,75,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
+        <TextBlock x:Name="PTextBlockRUB" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,25,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
+        <TextBlock x:Name="RTextBlockRUB" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,25,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
+        <Menu Height="35" VerticalAlignment="Top" Grid.ColumnSpan="3" Background="#FF263E82">
+            <MenuItem Header="Довідка" Background="#FFB8977D" Height="35" Width="135" FontFamily="Century" FontSize="16" FontWeight="Bold" FontStyle="Normal" Click="MenuItem_Click_1">
+            </MenuItem>
+            <MenuItem Header="Про програму" Width="135" Height="35" Background="#FFB8977D" FontFamily="Century" FontSize="16" FontWeight="Bold" Click="MenuItem_Click_2" >
+            </MenuItem>
+        </Menu>
+        <Image x:Name="Instruction" Grid.Column="2" Margin="0,0,0,0" Width="247"  Visibility="Hidden" HorizontalAlignment="Right" Source="/Інструкція як працювати з програмою.jpg" VerticalAlignment="Bottom"/>
+        <Button Content="Розрахувати" Grid.Column="1" Margin="40,470,40,100" Background="#FF263E82" Height="62" FontFamily="Century" FontSize="18" FontWeight="Bold" Click="Button_Click"/>
+        <TextBox x:Name="TextBoxR" Grid.Column="1" Margin="215,100,15,0" TextWrapping="Wrap" FontFamily="Century" FontSize="16" VerticalAlignment="Top" PreviewTextInput="TextBoxR_PreviewTextInput" PreviewKeyDown="TextBoxR_PreviewKeyDown"/>
+        <TextBox x:Name="TextBoxCount" Grid.Column="1" Margin="215,143,15,0" TextWrapping="Wrap" FontFamily="Century" FontSize="16" VerticalAlignment="Top" PreviewKeyDown="TextBoxCount_PreviewKeyDown" PreviewTextInput="TextBoxCount_PreviewTextInput"/>
     </Grid>
 </Window>

@@ -17,3 +17,41 @@ C:\Users\User\Documents\GitHub\Project_Techology\WpfApp1\WpfApp1\obj\Debug\netco
 C:\Users\User\Documents\GitHub\Project_Techology\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
 C:\Users\User\Documents\GitHub\Project_Techology\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
 C:\Users\User\Documents\GitHub\Project_Techology\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\К19-2\2 курс\2 семестр\Технології розробки програмного забезпечення\Виконані завдання\Project_Techology-main\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache

@@ -39,7 +39,7 @@ namespace WpfApp1 {
                 RTextBlockUAH.Text = UAH.UAH_NewResult(result);
                 RTextBlockEUR.Text = EUR.EURroz(result);
                 RTextBlockUSD.Text = USD.USDroz(result);
-                RTextBlockRUB.Text = RUB.RUBroz(invoice);
+                RTextBlockRUB.Text = RUB.RUBroz(result);
             }
         }
         private void TextBoxR_PreviewTextInput(object sender, TextCompositionEventArgs e) {
@@ -63,6 +63,23 @@ namespace WpfApp1 {
             if (!Int32.TryParse(e.Text, out val)) {
                 e.Handled = true;
             }
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (Instruction.Visibility == Visibility.Hidden)
+            {
+                Instruction.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Instruction.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Назва:\n\"Родільник купюр\"\n\nПризначення:\nРозділення рахунку на певну кількість людей \n\nРозробники:\nМорунова Олександра\nЛісова Ірина\nНазарян Артур", "Про програму");
         }
     }
 }
