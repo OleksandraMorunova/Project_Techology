@@ -64,21 +64,15 @@ namespace WpfApp1 {
                 e.Handled = true;
             }
         }
-
-        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
-        {
-            if (Instruction.Visibility == Visibility.Hidden)
-            {
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e) {
+            if (Instruction.Visibility == Visibility.Hidden) {
                 Instruction.Visibility = Visibility.Visible;
             }
-            else
-            {
+            else {
                 Instruction.Visibility = Visibility.Hidden;
             }
         }
-
-        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
-        {
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e) {
             MessageBox.Show("Назва:\n\"Родільник купюр\"\n\nПризначення:\nРозділення рахунку на певну кількість людей \n\nРозробники:\nМорунова Олександра\nЛісова Ірина\nНазарян Артур", "Про програму");
         }
     }

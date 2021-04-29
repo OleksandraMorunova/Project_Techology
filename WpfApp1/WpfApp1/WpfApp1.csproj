@@ -7,14 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Instruction.jpg" />
     <None Remove="pexels-anna-nekrashevich-6801641.jpg" />
     <None Remove="pexels.jpg" />
-    <None Remove="Інструкція як працювати з програмою.jpg" />
+    <None Remove="Інструкція.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="pexels.jpg" />
-    <Resource Include="Інструкція як працювати з програмою.jpg" />
+    <Resource Include="Інструкція.jpg" />
   </ItemGroup>
 
 </Project>

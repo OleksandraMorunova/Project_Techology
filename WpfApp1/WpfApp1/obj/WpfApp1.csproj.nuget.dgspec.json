@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irali\\OneDrive\\Документи\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irali\\OneDrive\\Документи\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irali\\OneDrive\\Документи\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "C:\\Users\\irali\\OneDrive\\Документи\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-        "packagesPath": "C:\\Users\\irali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irali\\OneDrive\\Документи\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Project_Techology\\WpfApp1\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\irali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
