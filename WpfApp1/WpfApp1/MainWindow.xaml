@@ -34,14 +34,14 @@
         <Label Content="USD" Grid.Column="1" HorizontalAlignment="Right" Margin="0,255,126,0" VerticalAlignment="Top" RenderTransformOrigin="0.23,0.654" FontFamily="Century" FontSize="14" Width="48"/>
         <Label Content="EUR" Grid.Column="1" HorizontalAlignment="Right" Margin="0,255,68,0" VerticalAlignment="Top" FontSize="14" FontFamily="Century" Width="50"/>
         <Label Content="RUB" Grid.Column="1" HorizontalAlignment="Right" Margin="0,255,6,0" VerticalAlignment="Top" FontSize="14" FontFamily="Century" Width="50"/>
-        <TextBlock x:Name="PTextBlockUAH" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,196,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold" TextTrimming="None" LineStackingStrategy="MaxHeight" Width="Auto"/>
-        <TextBlock x:Name="PTextBlockUSD" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,139,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
-        <TextBlock x:Name="RTextBlockUAH" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,196,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
-        <TextBlock x:Name="PTextBlockEUR" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,81,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
-        <TextBlock x:Name="RTextBlockUSD" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,139,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
-        <TextBlock x:Name="RTextBlockEUR" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,81,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
-        <TextBlock x:Name="PTextBlockRUB" Grid.Column="1" HorizontalAlignment="Right" Margin="0,284,19,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
-        <TextBlock x:Name="RTextBlockRUB" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,19,0" Text="_" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" TextAlignment="Left">
+        <TextBlock x:Name="PTextBlockUAH" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,196,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold" TextTrimming="None" LineStackingStrategy="MaxHeight" Width="Auto"/>
+        <TextBlock x:Name="PTextBlockUSD" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,139,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="RTextBlockUAH" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,196,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
+        <TextBlock x:Name="PTextBlockEUR" Grid.Column="1" HorizontalAlignment="Right" Margin="0,285,81,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="RTextBlockUSD" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,139,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="RTextBlockEUR" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,81,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
+        <TextBlock x:Name="PTextBlockRUB" Grid.Column="1" HorizontalAlignment="Right" Margin="0,284,19,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold"/>
+        <TextBlock x:Name="RTextBlockRUB" Grid.Column="1" HorizontalAlignment="Right" Margin="0,315,19,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Century" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" TextAlignment="Left">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
